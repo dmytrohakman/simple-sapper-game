@@ -1,0 +1,29 @@
+.hiden {
+    display: none;
+}
+
+#config small {
+    color: red;
+}
+
+#playground {
+    width: fit-content;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-self: center;
+}
+
+.row .cell {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
